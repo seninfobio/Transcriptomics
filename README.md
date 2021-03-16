@@ -29,6 +29,9 @@ dos2unix myresult.annot
 [Transcriptome Assembly Quality Assessment](https://github.com/trinityrnaseq/trinityrnaseq/wiki/Transcriptome-Assembly-Quality-Assessment)
 
 
+#### [Trinotate](https://informatics.fas.harvard.edu/trinotate-workflow-example-on-odyssey.html)
+
+
 
 
 
