@@ -25,6 +25,12 @@ dos2unix myresult.annot
 
 
 ```
+###### Transcriptome Quality Assessment
+[Transcriptome Assembly Quality Assessment](https://github.com/trinityrnaseq/trinityrnaseq/wiki/Transcriptome-Assembly-Quality-Assessment)
+
+
+
+
 
 Reference paper
 
