@@ -31,7 +31,11 @@ dos2unix myresult.annot
 
 #### [Trinotate](https://informatics.fas.harvard.edu/trinotate-workflow-example-on-odyssey.html)
 
+[Reference](https://www.sciencedirect.com/science/article/pii/S2211124716317703?via%3Dihub#mmc9)
 
+
+### Diamond
+[DIAMOND](https://github.com/bbuchfink/diamond)
 
 
 
