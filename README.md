@@ -40,6 +40,51 @@ dos2unix myresult.annot
 ### Diamond
 [DIAMOND](https://github.com/bbuchfink/diamond)
 
+##Install DIAMOND BLASTX tool
+https://anaconda.org/bioconda/diamond
+
+##create specific environment for diamond
+conda create --name diamond_env
+
+source activate diamond_env
+
+conda install -c bioconda diamond
+conda install -c bioconda/label/cf201901 diamond
+
+https://github.com/bbuchfink/diamond
+
+
+# downloading the tool
+wget http://github.com/bbuchfink/diamond/releases/download/v2.0.8/diamond-linux64.tar.gz
+tar xzf diamond-linux64.tar.gz
+# creating a diamond-formatted database file
+./diamond makedb --in reference.fasta -d reference
+# running a search in blastp mode
+./diamond blastp -d reference -q queries.fasta -o matches.tsv
+# running a search in blastx mode
+./diamond blastx -d reference -q reads.fasta -o matches.tsv
+# downloading and using a BLAST database
+update_blastdb --decompress --blastdb_version 5 swissprot
+./diamond blastp -d swissprot -q queries.fasta -o matches.tsv
+
+
+##Making database###
+
+/usr/bin/time -o output.txt -v diamond makedb -p 32 --in uniprot_sprot.fasta -d uniprot_sprot &>log &
+
+/usr/bin/time -o outputswissprot.txt -v diamond makedb -p 32 --in swissprot.fasta -d swissprot &>log.swissprt &
+
+/usr/bin/time -o outputnr.txt -v diamond makedb -p 32 --in nr.fasta -d nr &>log.nrdb &
+
+##Run Blastx##
+
+/usr/bin/time -o outputblastx.txt -v diamond blastx -p 32 -d uniprot_sprot -q alatum.transcripts.fasta -o alatum_matches.xml --outfmt 5 &> log.blastx.xml &
+
+/usr/bin/time -o output_sprotblastx.txt -v diamond blastx -p 32 -d swissprot -q alatum.transcripts.fasta -o swissprot.alatum_matches.xml --outfmt 5 &> log.swisprot.blastx.xml &
+
+/usr/bin/time -o output_nrblastx.txt -v diamond blastx -p 32 -sensitive -d nr -q alatum.transcripts.fasta -o nr.alatum_matches.xml --outfmt 5 &> log.nr.blastx.xml &
+
+
 
 
 Reference paper
