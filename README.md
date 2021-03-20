@@ -125,5 +125,7 @@ Reference paper
 [Seed Transcriptome Annotation Reveals Enhanced Expression of Genes Related to ROS Homeostasis and Ethylene Metabolism at Alternating Temperatures in Wild Cardoon](https://www.mdpi.com/2223-7747/9/9/1225/htm)
 
 
+[Gene expression profiles that shape high and low oil content sesames](https://bmcgenomdata.biomedcentral.com/track/pdf/10.1186/s12863-019-0747-7.pdf)
+
 
 
