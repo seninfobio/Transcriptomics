@@ -127,5 +127,5 @@ Reference paper
 
 [Gene expression profiles that shape high and low oil content sesames](https://bmcgenomdata.biomedcentral.com/track/pdf/10.1186/s12863-019-0747-7.pdf)
 
-
+[Transcriptome profiling of spike provides expression features of genes related to terpene biosynthesis in lavender](https://www.nature.com/articles/s41598-020-63950-4#Sec11)
 
