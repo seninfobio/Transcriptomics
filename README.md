@@ -89,7 +89,7 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 [NUCELOTIDE QUERY REF](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#NucleotideQuerySequence)
 
 
-Reference paper
+# Reference paper ##
 
 [EnTAP: Bringing Faster and Smarter Functional Annotation to Non-Model Eukaryotic Transcriptomes](https://www.biorxiv.org/content/biorxiv/early/2018/04/28/307868.full.pdf)
 
