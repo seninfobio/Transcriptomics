@@ -89,6 +89,10 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 
 Reference paper
 
+[EnTAP: Bringing Faster and Smarter Functional Annotation to Non-Model Eukaryotic Transcriptomes](https://www.biorxiv.org/content/biorxiv/early/2018/04/28/307868.full.pdf)
+
+[A Comparison of Resources for the Annotation of a De Novo Assembled Transcriptome in the Molting Gland (Y-Organ) of the Blackback Land Crab, Gecarcinus lateralis](https://academic.oup.com/icb/article/56/6/1103/2647085)
+
 [Comparative transcriptome analysis of cultivated and wild seeds of Salvia hispanica (chia)](https://www.nature.com/articles/s41598-019-45895-5#Sec9)
 
 [Seed Transcriptomics Analysis in Camellia oleifera Uncovers Genes Associated with Oil Content and Fatty Acid Composition](https://www.mdpi.com/1422-0067/19/1/118)
