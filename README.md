@@ -84,7 +84,9 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 
 /usr/bin/time -o output_nrblastx.txt -v diamond blastx -p 32 -sensitive -d nr -q alatum.transcripts.fasta -o nr.alatum_matches.xml --outfmt 5 &> log.nr.blastx.xml &
 
-
+##### 
+##### CDD DATABASE 
+[NUCELOTIDE QUERY REF](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#NucleotideQuerySequence)
 
 
 Reference paper
