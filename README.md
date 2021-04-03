@@ -87,6 +87,8 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 ##### 
 # CDD DATABASE ##
 [NUCELOTIDE QUERY REF](https://www.ncbi.nlm.nih.gov/Structure/cdd/cdd_help.shtml#NucleotideQuerySequence)
+[Biostar_help](https://www.biostars.org/p/52309/)
+[Biopython](https://warwick.ac.uk/fac/sci/moac/people/students/peter_cock/python/rpsblast/)
 
 
 # Reference paper ##
