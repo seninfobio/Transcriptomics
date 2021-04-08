@@ -137,3 +137,6 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 
 [Transcriptome profiling of spike provides expression features of genes related to terpene biosynthesis in lavender](https://www.nature.com/articles/s41598-020-63950-4#Sec11)
 
+[Metabolic engineering of fatty acid biosynthetic pathway in sesame (Sesamum indicum L.): assembling tools to develop nutritionally desirable sesame seed oil](https://link.springer.com/article/10.1007/s11101-015-9424-2)
+
+
