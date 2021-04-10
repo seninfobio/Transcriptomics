@@ -145,6 +145,17 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 
 [Metabolic engineering of fatty acid biosynthetic pathway in sesame (Sesamum indicum L.): assembling tools to develop nutritionally desirable sesame seed oil](https://link.springer.com/article/10.1007/s11101-015-9424-2)
 
-[**unreplicated data_Comparative Characterization of the Leaf Tissue of Physalis alkekengi and Physalis peruviana Using RNA-seq and Metabolite Profiling])(https://www.frontiersin.org/articles/10.3389/fpls.2016.01883/full#h3)
+[## unreplicated data_Comparative Characterization of the Leaf Tissue of Physalis alkekengi and Physalis peruviana Using RNA-seq and Metabolite Profiling](https://www.frontiersin.org/articles/10.3389/fpls.2016.01883/full#h3)
 
+## Sesamin/Sesamolin/Lignan ###
+
+[(+)‐Sesamin‐oxidising CYP92B14 shapes specialised lignan metabolism in sesame](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.14989)
+
+[Glycoside‐specific glycosyltransferases catalyze regio‐selective sequential glucosylations for a sesame lignan, sesaminol triglucoside](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.14586)
+
+[Formation of a Methylenedioxy Bridge in (+)-Epipinoresinol by CYP81Q3 Corroborates with Diastereomeric Specialization in Sesame Lignans](https://academic.oup.com/pcp/article/59/11/2278/5062626?login=true)
+
+[Oxidative rearrangement of (+)-sesamin by CYP92B14 co-generates twin dietary lignans in sesame](https://www.nature.com/articles/s41467-017-02053-7)
+
+[Formation of two methylenedioxy bridges by a Sesamum CYP81Q protein yielding a furofuran lignan, (+)-sesamin](https://www.pnas.org/content/103/26/10116.short)
 
