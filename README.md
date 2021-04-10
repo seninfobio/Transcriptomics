@@ -139,4 +139,6 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 
 [Metabolic engineering of fatty acid biosynthetic pathway in sesame (Sesamum indicum L.): assembling tools to develop nutritionally desirable sesame seed oil](https://link.springer.com/article/10.1007/s11101-015-9424-2)
 
+[**unreplicated data_Comparative Characterization of the Leaf Tissue of Physalis alkekengi and Physalis peruviana Using RNA-seq and Metabolite Profiling])(https://www.frontiersin.org/articles/10.3389/fpls.2016.01883/full#h3)
+
 
