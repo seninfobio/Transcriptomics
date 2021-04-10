@@ -147,6 +147,8 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 
 [## unreplicated data_Comparative Characterization of the Leaf Tissue of Physalis alkekengi and Physalis peruviana Using RNA-seq and Metabolite Profiling](https://www.frontiersin.org/articles/10.3389/fpls.2016.01883/full#h3)
 
+[Full-Length Transcriptome Sequencing and Comparative Transcriptome Analysis to Evaluate Drought and Salt Stress in Iris lactea var. chinensis](https://www.mdpi.com/2073-4425/12/3/434/htm#B23-genes-12-00434)
+
 ## Sesamin/Sesamolin/Lignan ###
 
 [(+)‐Sesamin‐oxidising CYP92B14 shapes specialised lignan metabolism in sesame](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.14989)
