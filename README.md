@@ -93,7 +93,7 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 #####
 # GO ENRICHMENT using R ##
 
-[R](https://sbc.shef.ac.uk/workshops/2019-01-14-rna-seq-r/rna-seq-gene-set-testing.nb.html)
+[GOseq_R](https://sbc.shef.ac.uk/workshops/2019-01-14-rna-seq-r/rna-seq-gene-set-testing.nb.html)
 
 
 
