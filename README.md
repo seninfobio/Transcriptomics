@@ -161,3 +161,9 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 
 [Formation of two methylenedioxy bridges by a Sesamum CYP81Q protein yielding a furofuran lignan, (+)-sesamin](https://www.pnas.org/content/103/26/10116.short)
 
+[Sequential glucosylation of a furofuran lignan, (+)‐sesaminol, by Sesamum indicum UGT71A9 and UGT94D1 glucosyltransferases](https://onlinelibrary.wiley.com/doi/full/10.1111/j.1365-313X.2008.03428.x) 
+
+[Variations in the composition of sterols, tocopherols and lignans in seed oils from fourSesamum species](https://sci-hub.se/https://doi.org/10.1007/BF02541549)
+
+[Lignan analysis in seed oils from fourSesamum species: Comparison of different chromatographic methods](https://aocs.onlinelibrary.wiley.com/doi/epdf/10.1007/BF02541548)
+
