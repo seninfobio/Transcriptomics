@@ -167,3 +167,5 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 
 [Lignan analysis in seed oils from fourSesamum species: Comparison of different chromatographic methods](https://aocs.onlinelibrary.wiley.com/doi/epdf/10.1007/BF02541548)
 
+[Lignans of Sesame (Sesamum indicum L.): A Comprehensive Review](https://www.mdpi.com/1420-3049/26/4/883)
+
