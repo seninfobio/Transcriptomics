@@ -169,3 +169,7 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 
 [Lignans of Sesame (Sesamum indicum L.): A Comprehensive Review](https://www.mdpi.com/1420-3049/26/4/883)
 
+[Candidate genes involved in the biosynthesis of lignan in Schisandra chinensis fruit based on transcriptome and metabolomes analysis](https://www.sciencedirect.com/science/article/pii/S1875536420600073)
+
+
+
