@@ -113,11 +113,14 @@ $ cat file.fa | awk '$0 ~ ">" {print c; c=0;printf substr($0,2,100) "\t"; } $0 !
 For PFAM annotations, I used hmmscan against the full database downloaded from the xfam page. To download the databank and create the hmmscan file:
 
 wget ftp://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.gz #download
-gunzip Pfam-A.hmm.gz #unzip the database
-hmmpress Pfam-A.hmm #parse the database
+
+$ gunzip Pfam-A.hmm.gz #unzip the database
+
+$ hmmpress Pfam-A.hmm #parse the database
+
 And to run the scan against the query sequences:
 
-hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
+$ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 # Reference paper ##
 
