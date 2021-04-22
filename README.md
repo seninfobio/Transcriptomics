@@ -103,6 +103,12 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 
 $ seqtk subseq your.input.fasta the_header_of_interest_IDs.list > your_output.fasta
 
+# Sequence Length distribution
+
+$ cat file.fa | awk '$0 ~ ">" {print c; c=0;printf substr($0,2,100) "\t"; } $0 !~ ">" {c+=length($0);} END { print c; }'
+
+[How to generate sequence length distribution from Fasta file](https://www.biostars.org/p/421925/)
+
 
 
 # Reference paper ##
