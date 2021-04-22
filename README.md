@@ -99,6 +99,11 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 # AUGUSTUS GENE PREDICTION TOOL
 [GENOMICS TUTORIAL](https://genomics.sschmeier.com/ngs-annotation/index.html)
 
+# Using Sequence_IDS pooled from trasncript_dataset
+
+$ seqtk subseq your.input.fasta the_header_of_interest_IDs.list > your_output.fasta
+
+
 
 # Reference paper ##
 
