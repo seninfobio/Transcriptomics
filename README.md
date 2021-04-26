@@ -77,12 +77,14 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 /usr/bin/time -o outputnr.txt -v diamond makedb -p 32 --in nr.fasta -d nr &>log.nrdb &
 
 ##Run Blastx##
-
+```bash
 /usr/bin/time -o outputblastx.txt -v diamond blastx -p 32 -d uniprot_sprot -q alatum.transcripts.fasta -o alatum_matches.xml --outfmt 5 &> log.blastx.xml &
 
 /usr/bin/time -o output_sprotblastx.txt -v diamond blastx -p 32 -d swissprot -q alatum.transcripts.fasta -o swissprot.alatum_matches.xml --outfmt 5 &> log.swisprot.blastx.xml &
 
 /usr/bin/time -o output_nrblastx.txt -v diamond blastx -p 32 -sensitive -d nr -q alatum.transcripts.fasta -o nr.alatum_matches.xml --outfmt 5 &> log.nr.blastx.xml &
+
+````
 
 ##### 
 # CDD DATABASE ##
