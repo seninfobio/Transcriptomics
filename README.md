@@ -198,5 +198,7 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 [Candidate genes involved in the biosynthesis of lignan in Schisandra chinensis fruit based on transcriptome and metabolomes analysis](https://www.sciencedirect.com/science/article/pii/S1875536420600073)
 
+[The cytochrome P450 superfamily: Key players in plant development and defense](https://www.sciencedirect.com/science/article/pii/S2095311914609801)
+
 
 
