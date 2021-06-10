@@ -7,10 +7,20 @@ Sesame is an important ancient orphan crop of high nutritional value, is widely 
 
 
 2. Materials and Methods
+
 Plant material
-RNA isolation and transcriptome sequencing
+Plants were grown in the experimental farm of the Rural development and administration, Jeonju, South Korea. 
+RNA isolation and cDNA synthesis for sequencing were carried out as previuosly reported (). Here we used unreplicated data for a sample.
+
+RNA isolation and Illumina sequencing
+For the generation of cDNA libraries, we employed an Illumina Hiseq 2000 sequencer (Illumina Inc., San Diego, CA, USA). we sequnced 101 bp paired end (PE) reads (). Our short read data in FASTQ file format were produced by ...(). Short reads that didnot pass illumina standard qulaity filter were eliminated. the process clean reads from the mRNA pool isolated......
+
 De novo assembly and sequence process
+ we performed de novo transcriptome assembly using the Trinity program (Grabherr et al. 2011). we then subjected secondary assembly with CD-HIT EST v4.6.1 (ref)  tool to cluster contigs originating from the same gene or protein. Followed by the assembled unigenes to read alignment with Bowtie2 (ref). 
+
 Function annotation
+ we performed functional annotation of all the transcripts with BLASTX search (ref) against the Uniprot/swissprot, Refseq plant protein and NR database. and then we applied the blastx results in Blast2GO
+
 Identification of CYP450 gene family
 
 
@@ -30,4 +40,4 @@ Data Availability Statement:
 Conflicts of Interest:
 References:
 1. Nayar N.M., Mehra K.L. Sesame: Its uses, botany, cytogenetics and origin. Econ. Bot. 1970;24:20–31. doi: 10.1007/BF02860629)
-
+Grabherr, M. G., Haas, B. J., Yassour, M., Levin, J. Z., Thompson, D. A., Amit, I., et al. (2011). Full-length transcriptome assembly from RNA-Seq data without a reference genome. Nat. Biotechnol. 29, 644–652. doi: 10.1038/nbt.1883
