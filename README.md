@@ -126,6 +126,8 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 # Reference paper ##
 
+[Methodology references---Identification of Glutathione S-Transferase Genes in Hami Melon (Cucumis melo var. saccharinus) and Their Expression Analysis Under Cold Stress](https://www.frontiersin.org/articles/10.3389/fpls.2021.672017/full#h4)
+
 [EnTAP: Bringing Faster and Smarter Functional Annotation to Non-Model Eukaryotic Transcriptomes](https://www.biorxiv.org/content/biorxiv/early/2018/04/28/307868.full.pdf)
 
 [A Comparison of Resources for the Annotation of a De Novo Assembled Transcriptome in the Molting Gland (Y-Organ) of the Blackback Land Crab, Gecarcinus lateralis](https://academic.oup.com/icb/article/56/6/1103/2647085)
