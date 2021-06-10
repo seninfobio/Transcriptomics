@@ -19,7 +19,8 @@ De novo assembly and sequence process
  we performed de novo transcriptome assembly using the Trinity program (Grabherr et al. 2011). we then subjected secondary assembly with CD-HIT EST v4.6.1 (ref)  tool to cluster contigs originating from the same gene or protein. Followed by the assembled unigenes to read alignment with Bowtie2 (ref). 
 
 Function annotation
- we performed functional annotation of all the transcripts with BLASTX search (ref) against the Uniprot/swissprot, Refseq plant protein and NR database. and then we applied the blastx results in Blast2GO
+ we performed functional annotation of all the transcripts with BLASTX search (ref) against the Uniprot/swissprot, Refseq plant protein and NR database. and then we applied the blastx results in Blast2GO program v2... (Conesa et al., 2005) to assign GO categories, an EC number and KEGG pathways (Kanehisa et al., 2014) based on the BLAST results with default settings. 
+
 
 Identification of CYP450 gene family
 
