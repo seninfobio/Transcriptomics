@@ -131,7 +131,10 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 [To Run](https://interproscan-docs.readthedocs.io/en/latest/HowToRun.html)
 
+```bash
+./interproscan.sh -appl CDD,COILS,Gene3D,HAMAP,MobiDBLite,PANTHER,Pfam,PIRSF,PRINTS,PROSITEPATTERNS,PROSITEPROFILES,SFLD,SMART,SUPERFAMILY,TIGRFAM -i /path/to/sequences.fasta
 
+```
 
 
 
