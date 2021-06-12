@@ -124,6 +124,14 @@ And to run the scan against the query sequences:
 
 $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
+# InterproScan
+[Download](http://www.ebi.ac.uk/interpro/download/)
+
+[To install and run InterProScan](https://github.com/ebi-pf-team/interproscan)
+
+
+
+
 # Reference paper ##
 
 [Methodology references---Identification of Glutathione S-Transferase Genes in Hami Melon (Cucumis melo var. saccharinus) and Their Expression Analysis Under Cold Stress](https://www.frontiersin.org/articles/10.3389/fpls.2021.672017/full#h4)
