@@ -178,6 +178,10 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 [Full-Length Transcriptome Sequencing and Comparative Transcriptome Analysis to Evaluate Drought and Salt Stress in Iris lactea var. chinensis](https://www.mdpi.com/2073-4425/12/3/434/htm#B23-genes-12-00434)
 
+[Lamiales_ref_Functional characterization of the cytochrome P450 monooxygenase CYP71AU87 indicates a role in marrubiin biosynthesis in the medicinal plant Marrubium vulgare](https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-019-1702-5)
+
+
+
 ## Sesamin/Sesamolin/Lignan ###
 
 [(+)‐Sesamin‐oxidising CYP92B14 shapes specialised lignan metabolism in sesame](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.14989)
