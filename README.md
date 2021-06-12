@@ -129,6 +129,10 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 [To install and run InterProScan](https://github.com/ebi-pf-team/interproscan)
 
+[To Run](https://interproscan-docs.readthedocs.io/en/latest/HowToRun.html)
+
+
+
 
 
 
