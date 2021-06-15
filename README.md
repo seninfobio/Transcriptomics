@@ -195,7 +195,7 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 [Lamiales_ref_Functional characterization of the cytochrome P450 monooxygenase CYP71AU87 indicates a role in marrubiin biosynthesis in the medicinal plant Marrubium vulgare](https://bmcplantbiol.biomedcentral.com/articles/10.1186/s12870-019-1702-5)
 
-
+[Genome sequencing of the important oilseed crop Sesamum indicumL (https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-1-401#ref-CR37)
 
 ## Sesamin/Sesamolin/Lignan ###
 
