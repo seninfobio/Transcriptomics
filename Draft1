@@ -2,7 +2,12 @@
  
 1. Introduction
 
+**Sesame species and its evloution**
 Sesame is one of the important ancient orphan crop with high nutritional values, is widely cultivated through Asia and Africa and other countries. In sesame genus, over 30 species are most commonly cultivated edible oil crop species in the genus (Nayar et al. 1970). 
+*Importance of sal. than other species*
+*So far_gap about breeding in sal.*
+*lignan biosynthesis*
+*overcome this issues and to be a great model organism in sesame*
 
 
 
@@ -26,6 +31,8 @@ GO mapping was performed against the gene ontology database implemented in Omics
 Identification of CYP450 gene family
 
 Coding regions of the assembled transcripts were predicted using TransDecoder (v. 5.5.0) with default settings (https://github.com/TransDecoder/TransDecoder/wiki). We used selected the single best open reading frame (ORF) per transcript longer than 100 peptides.
+Phylogentic analysis
+
 
 3. Results and Discussion
 3.1 Illumina sequencing and De novo assembly
