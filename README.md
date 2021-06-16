@@ -197,6 +197,9 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 [Genome sequencing of the important oilseed crop Sesamum indicumL (https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-1-401#ref-CR37)
 
+
+![img](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5483-x/figures/2)
+
 ## Sesamin/Sesamolin/Lignan ###
 
 [(+)‐Sesamin‐oxidising CYP92B14 shapes specialised lignan metabolism in sesame](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.14989)
