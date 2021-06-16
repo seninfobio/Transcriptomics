@@ -197,7 +197,7 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 [Genome sequencing of the important oilseed crop Sesamum indicumL (https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-1-401#ref-CR37)
 
-
+[Phylogenomic analysis of cytochrome P450 multigene family and their differential expression analysis in Solanum lycopersicum L. suggested tissue specific promoters](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5483-x#Sec10)
 ![img](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12864-019-5483-x/MediaObjects/12864_2019_5483_Fig2_HTML.png?as=webp)
 
 ## Sesamin/Sesamolin/Lignan ###
