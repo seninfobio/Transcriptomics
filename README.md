@@ -141,6 +141,9 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 # Reference paper ##
 
+[Transcriptomic comparison reveals genetic variation potentially underlying seed developmental evolution of soybeans](https://academic.oup.com/jxb/article/69/21/5089/5064903#122474828)
+
+
 [Methodology references---Identification of Glutathione S-Transferase Genes in Hami Melon (Cucumis melo var. saccharinus) and Their Expression Analysis Under Cold Stress](https://www.frontiersin.org/articles/10.3389/fpls.2021.672017/full#h4)
 
 [EnTAP: Bringing Faster and Smarter Functional Annotation to Non-Model Eukaryotic Transcriptomes](https://www.biorxiv.org/content/biorxiv/early/2018/04/28/307868.full.pdf)
