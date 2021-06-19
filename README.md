@@ -136,6 +136,10 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 ```
 
+# SSR marker prediction_KRAIT #
+
+[KRAIT](https://github.com/lmdu/krait/releases)
+
 
 
 
