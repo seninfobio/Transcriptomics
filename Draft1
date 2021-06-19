@@ -9,6 +9,8 @@ Natural sesame species can be divided into three types based on chromosome numbe
 *So far_gap about breeding in sal.*
 *lignan biosynthesis*
 *overcome this issues and to be a great model organism in sesame*
+Hence, in this investigation using NGS technology has been used for RNA sequencing and de novo transcriptome assembly of sal seed, using Illumina HiseqTM 2000 platform, to identify known and novel transcripts of various metabolic pathways including lignan biosynthesis. Further, the study also focused on the identification of different cytochrome P450 genes in the seeds, and deduced proteins were classified into the families. This is the first report on sal seed transcriptome in the public database as a TSA record. The assembled and annotated transcripts of sal., can be used as the public information dataset. Our approach provide a basis for further researchers on plant breeding and bioengineering of sal, plants and they represent a shrotcut to gene discovery in these species.
+
 
 
 
@@ -16,7 +18,7 @@ Natural sesame species can be divided into three types based on chromosome numbe
 
 Plant material
 Plants were grown in the experimental farm of the Rural development and administration, Jeonju, South Korea. 
-RNA isolation and cDNA synthesis for sequencing were carried out as previuosly reported (). Here we used unreplicated data for a sample.
+RNA isolation and cDNA synthesis for sequencing were carried out as previuosly reported (). Here we used unreplicated data for a sample. 
 
 RNA isolation and Illumina sequencing
 For the generation of cDNA libraries, we employed an Illumina Hiseq 2000 sequencer (Illumina Inc., San Diego, CA, USA). we sequnced 101 bp paired end (PE) reads (). Our short read data in FASTQ file format were produced by ...(). Short reads that didnot pass illumina standard qulaity filter were eliminated. the process clean reads from the mRNA pool isolated......
