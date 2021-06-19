@@ -144,6 +144,9 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 Du, L., Zhang, C., Liu, Q., Zhang, X. & Yue, B. Krait: an ultrafast tool for genome-wide survey of microsatellites and primer design. Bioinformatics 34, 681–683 (2018).
 
+[Distribution patterns and variation analysis of simple sequence repeats in different genomic regions of bovid genomes
+Download PDF](https://www.nature.com/articles/s41598-018-32286-5#Sec12)
+
 
 
 
