@@ -147,7 +147,7 @@ Du, L., Zhang, C., Liu, Q., Zhang, X. & Yue, B. Krait: an ultrafast tool for gen
 [Distribution patterns and variation analysis of simple sequence repeats in different genomic regions of bovid genomes
 Download PDF](https://www.nature.com/articles/s41598-018-32286-5#Sec12)
 
-
+[Genome-wide investigation of microsatellite polymorphism in coding region of the giant panda (Ailuropoda melanoleuca) genome: a resource for study of phenotype diversity and abnormal traits](https://link.springer.com/article/10.1007/s13364-019-00418-5?shared-article-renderer#Sec2)
 
 
 # Reference paper ##
