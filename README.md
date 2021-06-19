@@ -228,4 +228,7 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 [The cytochrome P450 superfamily: Key players in plant development and defense](https://www.sciencedirect.com/science/article/pii/S2095311914609801)
 
 
+[Identification of a binding protein for sesamin and characterization of its roles in plant growth](https://www.nature.com/articles/s41598-019-45003-7)
+
+
 
