@@ -40,6 +40,10 @@ trimal is tool for the automated removal of spurious sequences or poorly aligned
 from each curated MSA, we used IQ-Tree to infer or modelfinder plus phylogeny 
 The tree was inferred by maximum likelihood with IQ-TREE
 
+Identification of Transcription factor
+Transcription fators (TF) were identified using transcripts genome scale protein and nucleic acid sequences by analayzing Interproscan domain patterns in protein sequences with high coverage and sensitivity using PlantTFcat analysis tool (http://plantgrn.noble.org/PlantTFcat/) (Dai et al. 2013). 
+
+
 3. Results and Discussion
 3.1 Illumina sequencing and De novo assembly
 3.2 Functional annotation
@@ -73,3 +77,5 @@ TransDecoder (find coding regions within transcripts). 2014. http://transdecoder
 Katoh, K. & Standley, D. M. MAFFT multiple sequence alignment software version 7: Improvements in performance and usability. Mol. Biol. Evol. 30, 772–780 (2013).
 
 Nguyen, L.-T., Schmidt, H. A., von Haeseler, A. & Minh, B. Q. IQ-TREE: a fast and effective stochastic algorithm for estimating maximum-likelihood phylogenies. Mol. Biol. Evol. 32, 268–274 (2015).
+
+Dai, X., Sinharoy, S., Udvardi, M. et al. PlantTFcat: an online plant transcription factor and transcriptional regulator categorization and analysis tool. BMC Bioinformatics 14, 321 (2013). https://doi.org/10.1186/1471-2105-14-321
