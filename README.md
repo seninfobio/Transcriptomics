@@ -140,6 +140,10 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
 [KRAIT](https://github.com/lmdu/krait/releases)
 
+[Krait: an ultrafast tool for genome-wide survey of microsatellites and primer design] (https://academic.oup.com/bioinformatics/article/34/4/681/4557187)
+
+Du, L., Zhang, C., Liu, Q., Zhang, X. & Yue, B. Krait: an ultrafast tool for genome-wide survey of microsatellites and primer design. Bioinformatics 34, 681–683 (2018).
+
 
 
 
