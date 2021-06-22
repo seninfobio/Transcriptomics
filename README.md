@@ -214,6 +214,11 @@ Download PDF](https://www.nature.com/articles/s41598-018-32286-5#Sec12)
 [Phylogenomic analysis of cytochrome P450 multigene family and their differential expression analysis in Solanum lycopersicum L. suggested tissue specific promoters](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-019-5483-x#Sec10)
 ![img](https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12864-019-5483-x/MediaObjects/12864_2019_5483_Fig2_HTML.png?as=webp)
 
+[Computational Identification and Systematic Classification of Novel Cytochrome P450 Genes in Salvia miltiorrhiza](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115149)
+![img](https://journals.plos.org/plosone/article/figure/image?size=inline&id=info:doi/10.1371/journal.pone.0115149.g002)
+
+
+
 ## Sesamin/Sesamolin/Lignan ###
 
 [(+)‐Sesamin‐oxidising CYP92B14 shapes specialised lignan metabolism in sesame](https://onlinelibrary.wiley.com/doi/full/10.1111/tpj.14989)
