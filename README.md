@@ -41,8 +41,15 @@ source activate qc
 cd ~/analysis/015_seed_transcriptomics/01.quality_preprocessing/raw
 
 fastqc -t 32 -o ~/analysis/015_seed_transcriptomics/01.quality_preprocessing/raw *.fastq.gz &> log.fastqc &
+```
 
 #---Trimming
+
+```bash
+
+#!/bin/bash
+
+set -e
 
 for reads in *_1.fastq.gz
 
@@ -58,9 +65,12 @@ fastp --detect_adapter_for_pe \
        -o ../trim/${base}_R1.fastq.gz -O ../trim/${base}_R2.fastq.gz 
 
 done
+#----Run
+bash run_fastp.sh &>log.fastp &
+```
 
 #---Let's run fastqc again on the trimmed data
-
+```bash
 cd ../trim/
 
 fastqc -t 32 *
