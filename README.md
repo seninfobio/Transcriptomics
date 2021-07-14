@@ -1,5 +1,54 @@
 # Transcriptomics
 
+# Qulaity control
+[Reference site](https://genomics.sschmeier.com/ngs-qc/index.html#the-qc-process)
+
+Create the channel for qc to install fastp fastqc multiqc install
+
+
+* Step:1 
+
+```bash
+# create env and install tools
+$ conda create --yes -n qc fastp fastqc multiqc
+
+# activate env
+$ conda activate qc
+```
+* Step: 2
+```bash
+$ mkdir trimmed
+
+$ fastp --detect_adapter_for_pe
+        --overrepresentation_analysis
+        --correction --cut_right --thread 2
+        --html trimmed/anc.fastp.html --json trimmed/anc.fastp.json
+        -i data/anc_R1.fastq.gz -I data/anc_R2.fastq.gz
+        -o trimmed/anc_R1.fastq.gz -O trimmed/anc_R2.fastq.gz
+        
+```
+
+Note:
+
+--detect_adapter_for_pe: Specifies that we are dealing with paired-end data.
+
+--overrepresentation_analysis: Analyse the sequence collection for sequences that appear too often.
+
+--correction: Will try to correct bases based on an overlap analysis of read1 and read2.
+
+--cut_right: Will use quality trimming and scan the read from start to end in a window. If the quality in the window is below what is required, the window plus all sequence towards the end is discarded and the read is kept if its still long enough.
+
+--thread: Specify how many concurrent threads the process can use.
+
+--html and --json: We specify the location of some stat files.
+
+-i data/anc_R1.fastq.gz -I data/anc_R2.fastq.gz: Specifies the two input read files
+
+-o trimmed/anc_R1.fastq.gz -O trimmed/anc_R2.fastq.gz: Specifies the two desired output read files
+
+
+
+
 
 - #### [Blast2GO tutorial](https://biohpc.cornell.edu/lab/userguide.aspx?a=software&i=73)
 
