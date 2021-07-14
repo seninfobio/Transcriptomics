@@ -7,6 +7,7 @@ Create the channel for qc to install fastp fastqc multiqc install
 
 
 * Step:1 
+* Tool installation
 
 ```bash
 # create env and install tools
@@ -17,14 +18,65 @@ $ conda activate qc
 ```
 * Step: 2
 ```bash
-$ mkdir trimmed
 
-$ fastp --detect_adapter_for_pe
-        --overrepresentation_analysis
-        --correction --cut_right --thread 2
-        --html trimmed/anc.fastp.html --json trimmed/anc.fastp.json
-        -i data/anc_R1.fastq.gz -I data/anc_R2.fastq.gz
-        -o trimmed/anc_R1.fastq.gz -O trimmed/anc_R2.fastq.gz
+conda create --yes -n qc fastp fastqc multiqc
+
+----------------------------
+
+vi run_qc.sh
+
+
+#!/bin/bash
+
+set -e
+
+
+#--Activate the qc environment
+
+source activate qc
+
+
+#-- Check the reads quality
+
+cd ~/analysis/015_seed_transcriptomics/01.quality_preprocessing/raw
+
+fastqc -t 32 -o ~/analysis/015_seed_transcriptomics/01.quality_preprocessing/raw *.fastq.gz &> log.fastqc &
+
+#---Trimming
+
+for reads in *_1.fastq.gz
+
+do 
+
+base=$(basename $reads _1.fastq.gz)
+
+fastp --detect_adapter_for_pe \
+       --overrepresentation_analysis \
+       --correction --cut_right --thread 2 \
+       --html ../trim/${base}.fastp.html --json ../trim/${base}.fastp.json \
+       -i ${base}_1.fastq.gz -I ${base}_2.fastq.gz \
+       -o ../trim/${base}_R1.fastq.gz -O ../trim/${base}_R2.fastq.gz 
+
+done
+
+#---Let's run fastqc again on the trimmed data
+
+cd ../trim/
+
+fastqc -t 32 *
+
+#--Let's run multiQC on both untrimmed and trimmed files
+
+cd ..
+
+multiqc raw trim 
+
+source deactivate qc
+
+#--Bye
+
+
+$ bash run_qc.sh &> log.qc &
         
 ```
 
