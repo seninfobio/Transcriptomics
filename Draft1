@@ -53,6 +53,8 @@ Transcription fators (TF) were identified using transcripts genome scale protein
 
 3. Results and Discussion
 3.1 Illumina sequencing and De novo assembly
+Paired end sequencing of the cDNA library, using illumina sequencing HiSeq TM 2000, generated millions of reads with a length of 101 bp. after removal of adapter seqeuces and low quality reads with Q20 score, a total of 63.275 million high quality paired reads were generated 
+
 3.2 Functional annotation
 
 
