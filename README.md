@@ -136,9 +136,10 @@ dos2unix myresult.annot
 
 
 ```
-* Transcriptome Quality Assessment
+## Transcriptome Quality Assessment
+
 * [BUSCO](https://angus.readthedocs.io/en/2019/dammit_annotation.html#evaluation-with-busco)
-* 
+
 ```bash
 
 
