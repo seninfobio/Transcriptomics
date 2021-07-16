@@ -136,7 +136,45 @@ dos2unix myresult.annot
 
 
 ```
-###### Transcriptome Quality Assessment
+* Transcriptome Quality Assessment
+* [BUSCO](https://angus.readthedocs.io/en/2019/dammit_annotation.html#evaluation-with-busco)
+* 
+```bash
+
+
+#!/bin/bash
+
+set -e
+
+cd /NABIC/HOME/senthil83/analysis/009_Assembly_quality_metrics_s_alatum
+
+ln -fs /NABIC/HOME/senthil83/analysis/004_denovo_assembly_s_alatum_rna/s_alatum_trinity_out/Trinity.fasta .
+
+
+echo "Activate the busco environment"
+
+source activate busco_env
+
+echo "BUSCO analysis for S_alatum" 
+
+busco \
+  -i Trinity.fasta \
+  -o busco_S_alatum_embryophyta \
+  -l  /NABIC/HOME/senthil83/analysis/009_Assembly_quality_metrics_s_alatum/eudicots_odb10.2020-09-10/eudicots_odb10 \
+  -m transcriptome 
+
+
+#deactivate busco environment
+source deactivate busco_env
+
+
+bash run.sh &> log &
+```
+
+#exit
+
+* References
+
 [Transcriptome Assembly Quality Assessment](https://github.com/trinityrnaseq/trinityrnaseq/wiki/Transcriptome-Assembly-Quality-Assessment)
 
 
