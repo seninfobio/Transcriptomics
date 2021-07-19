@@ -250,6 +250,11 @@ update_blastdb --decompress --blastdb_version 5 swissprot
 
 # AUGUSTUS GENE PREDICTION TOOL
 [GENOMICS TUTORIAL](https://genomics.sschmeier.com/ngs-annotation/index.html)
+```bash
+/data/www/augustus/augustus/bin/augustus --species=arabidopsis --strand=both --singlestrand=false --genemodel=partial --codingseq=on --sample=100 --keep_viterbi=true --alternatives-from-sampling=true --minexonintronprob=0.2 --minmeanexonintronprob=0.5 --maxtracks=2 /data/www/augustus/webservice/data/AUG-1481299735/input.fa --exonnames=on
+
+```
+
 
 # Using Sequence_IDS pooled from trasncript_dataset
 
@@ -285,11 +290,8 @@ $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 ./interproscan.sh -appl CDD,COILS,Gene3D,HAMAP,MobiDBLite,PANTHER,Pfam,PIRSF,PRINTS,PROSITEPATTERNS,PROSITEPROFILES,SFLD,SMART,SUPERFAMILY,TIGRFAM -i /path/to/sequences.fasta
 
 ```
-# Gene prediction_AUGUSTUS
-``bash
-/data/www/augustus/augustus/bin/augustus --species=arabidopsis --strand=both --singlestrand=false --genemodel=partial --codingseq=on --sample=100 --keep_viterbi=true --alternatives-from-sampling=true --minexonintronprob=0.2 --minmeanexonintronprob=0.5 --maxtracks=2 /data/www/augustus/webservice/data/AUG-1481299735/input.fa --exonnames=on
 
-```
+
 
 
 # SSR marker prediction_KRAIT #
