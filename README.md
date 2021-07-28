@@ -279,6 +279,30 @@ And to run the scan against the query sequences:
 
 $ hmmscan --tblout MySu_v1.PFAM.txt Pfam-A.hmm MySu01_v1.proteins.fasta
 
+pfam_scan_env
+
+
+#download
+
+wget http://ftp.ebi.ac.uk/pub/databases/Pfam/current_release/Pfam-A.hmm.dat.gz for Pfam-B.hmm.dat
+wget http://ftp.ebi.ac.uk/pub/databases/Pfam/releases/Pfam33.1/active_site.dat.gz for active_site.dat
+
+##after download
+
+hmmpress Pfam-A.hmm
+hmmpress Pfam-B.hmm
+
+
+```bash
+pfam_scan.pl -fasta ourproteinsequence.fasta -cpu 32 -outfile outputfilename.txt - as -dir thewholepathofthedirectorofdb
+
+pfam_scan.pl -fasta suwon.blastpep.fasta -cpu 32 -outfile suwon.hmmresults.txt - as -dir /NABIC/HOME/senthil10/datafiles/05.pfam_db
+
+```
+
+
+
+
 # InterproScan
 [Download](http://www.ebi.ac.uk/interpro/download/)
 
