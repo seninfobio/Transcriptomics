@@ -334,7 +334,15 @@ Download PDF](https://www.nature.com/articles/s41598-018-32286-5#Sec12)
 
 # Reference paper ##
 
+[Dynamic metabolic and transcriptomic profiling of methyl jasmonate-treated hairy roots reveals synthetic characters and regulators of lignan biosynthesis in Isatis indigotica Fort](https://onlinelibrary.wiley.com/doi/full/10.1111/pbi.12576) 
+
+[Tandem UGT71B5s Catalyze Lignan Glycosylation in Isatis indigotica With Substrates Promiscuity](https://www.frontiersin.org/articles/10.3389/fpls.2021.637695/full)
+
+[De Novo Transcriptomes of Forsythia koreana Using a Novel Assembly Method: Insight into Tissue- and Species-Specific Expression of Lignan Biosynthesis-Related Gene](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0164805)
+
 [Transcriptomic comparison reveals genetic variation potentially underlying seed developmental evolution of soybeans](https://academic.oup.com/jxb/article/69/21/5089/5064903#122474828)
+
+[Comparative transcriptomes and development of expressed sequence tag-simple sequence repeat markers for two closely related oak species](https://www.jse.ac.cn/fileup/1674-4918/PDF/jse.12469.pdf)
 
 
 [Methodology references---Identification of Glutathione S-Transferase Genes in Hami Melon (Cucumis melo var. saccharinus) and Their Expression Analysis Under Cold Stress](https://www.frontiersin.org/articles/10.3389/fpls.2021.672017/full#h4)
