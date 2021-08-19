@@ -334,6 +334,8 @@ Download PDF](https://www.nature.com/articles/s41598-018-32286-5#Sec12)
 
 # Reference paper ##
 
+[A Literature Review of Gene Function Prediction by Modeling Gene Ontology](https://www.frontiersin.org/articles/10.3389/fgene.2020.00400/full)
+
 [Dynamic metabolic and transcriptomic profiling of methyl jasmonate-treated hairy roots reveals synthetic characters and regulators of lignan biosynthesis in Isatis indigotica Fort](https://onlinelibrary.wiley.com/doi/full/10.1111/pbi.12576) 
 
 [Tandem UGT71B5s Catalyze Lignan Glycosylation in Isatis indigotica With Substrates Promiscuity](https://www.frontiersin.org/articles/10.3389/fpls.2021.637695/full)
