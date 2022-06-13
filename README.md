@@ -315,6 +315,11 @@ pfam_scan.pl -fasta suwon.blastpep.fasta -cpu 32 -outfile suwon.hmmresults.txt -
 
 ```
 
+# Gene Enrichment Analysis
+[Gene Set Enrichment Analysis with ClusterProfiler](https://learn.gencore.bio.nyu.edu/rna-seq-analysis/gene-set-enrichment-analysis/)
+
+[RNA-seq analysis in R](https://bioinformatics-core-shared-training.github.io/cruk-summer-school-2018/RNASeq2018/html/06_Gene_set_testing.nb.html)
+
 
 
 
