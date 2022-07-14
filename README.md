@@ -321,6 +321,33 @@ pfam_scan.pl -fasta suwon.blastpep.fasta -cpu 32 -outfile suwon.hmmresults.txt -
 [RNA-seq analysis in R](https://bioinformatics-core-shared-training.github.io/cruk-summer-school-2018/RNASeq2018/html/06_Gene_set_testing.nb.html)
 
 
+# COG classification_Draw by R
+
+```r}
+
+library(ggplot2)
+
+
+dat <- data.frame(
+  FunctionClass = factor(c("A", "B", "C", "D", "E", "F", "G", "H", "I",     "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "Y", "Z"), levels=c("A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "Y", "Z")),
+  legend = c("A: RNA processing and modification", "B: Chromatin structure and dynamics", "C: Energy production and conversion", "D: Cell cycle control, cell division, chromosome partitioning", "E: Amino acid transport and metabolism", "F: Nucleotide transport and metabolism", "G: Carbohydrate transport and metabolism", "H: Coenzyme transport and metabolism", "I: Lipid transport and metabolism", "J: Translation, ribosomal structure and biogenesis", "K: Transcription", "L: Replication, recombination and repair", "M: Cell wall/membrane/envelope biogenesis", "N: Cell motility", "O: Posttranslational modification, protein turnover, chaperones", "P: Inorganic ion transport and metabolism", "Q: Secondary metabolites biosynthesis, transport and catabolism", "R: General function prediction only", "S: Function unknown", "T: Signal transduction mechanisms", "U: Intracellular trafficking, secretion, and vesicular transport", "V: Defense mechanisms", "W: Extracellular structures", "Y: Nuclear structure", "Z: Cytoskeleton"),
+  Frequency=c(1516,232,1011,257,934,341,1689,393,1019,1395,2777,862,354,1,2548,849,960,0,8789,3423,1226,258,25,15,476)
+)
+
+
+p <- ggplot(data=dat, aes(x=FunctionClass, y=Frequency, fill=legend))+
+  
+  geom_bar(stat="identity", position=position_dodge(), colour="seashell")
+
+p + guides (fill = guide_legend(ncol = 1))
+
+p <- ggplot(data=dat, aes(x=FunctionClass, y=No.of.Transcripts, fill=legend))+
+  geom_bar(stat="identity", position=position_dodge(), colour="seashell")
+p + guides (fill = guide_legend(ncol = 1))+
+  xlab("Factor Class")+
+  ggtitle("Cluster of Orthologous")
+
+```
 
 
 # SSR marker prediction_KRAIT #
